@@ -264,9 +264,8 @@ page2:Toggle('Dupe Farm',false,function(value)
     Dupe = value
 end)
 
-Settings.DistanceMob = 9
-page2:Slider("Distance Farm",true,0,100,1,function(v)
-    Settings.DistanceMob = v
+page2:Slider("Distance Farm",true,0,100,1,function(value)
+    Settings.DistanceMob = value
 end)
 
 spawn(function()
